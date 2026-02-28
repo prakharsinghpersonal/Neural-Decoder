@@ -1,1 +1,2 @@
 - Commit 2 (PyTorch Decoder): Train a lightweight PyTorch neural decoder model on the time-series data to predict actionable outputs (actuations).
+- Commit 3 (C++ Translation): Export the PyTorch model and write the C++ inference scripts to load and execute the model parameters natively.
