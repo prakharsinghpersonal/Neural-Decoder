@@ -1,3 +1,4 @@
 - Commit 2 (PyTorch Decoder): Train a lightweight PyTorch neural decoder model on the time-series data to predict actionable outputs (actuations).
 - Commit 3 (C++ Translation): Export the PyTorch model and write the C++ inference scripts to load and execute the model parameters natively.
 - Commit 4 (Latency Optimization): Optimize the C++ data loading and inference bridge to guarantee end-to-end processing speeds of <15ms.
+- Commit 5 (Deployment & Polish): Create an automated test that streams data, logs actuation predictions, validates the sub-15ms latency, and update the README.md.
